@@ -7,6 +7,15 @@ public class LineItem {
     private Integer price;
     private Integer quantity;
     private Integer salesPrice;
+    private Boolean saledOrNot;
+
+    public Boolean getSaledOrNot() {
+        return saledOrNot;
+    }
+
+    public void setSaledOrNot(Boolean saledOrNot) {
+        this.saledOrNot = saledOrNot;
+    }
 
     public Integer getPrice() {
         return price;

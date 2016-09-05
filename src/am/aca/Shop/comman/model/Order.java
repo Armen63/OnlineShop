@@ -13,6 +13,16 @@ public class Order {
     private Double itemPrice;
     private Double shippingPrice;
     private Double totalPrice;
+    private Boolean trackingNumber;
+
+    public Boolean getTrackingNumber() {
+        return trackingNumber;
+    }
+
+    public void setTrackingNumber(Boolean trackingNumber) {
+        this.trackingNumber = trackingNumber;
+    }
+
     Address shipTo;
 
 
