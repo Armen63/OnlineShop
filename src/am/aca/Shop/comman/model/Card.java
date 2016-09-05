@@ -6,6 +6,15 @@ package am.aca.Shop.comman.model;
 public class Card {
     private Integer cardID;
     CardType cardType;
+    Integer myBallance;
+
+    public Integer getMyBallance() {
+        return myBallance;
+    }
+
+    public void setMyBallance(Integer myBallance) {
+        this.myBallance = myBallance;
+    }
 
     public Integer getCardID() {
         return cardID;

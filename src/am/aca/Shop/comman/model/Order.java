@@ -13,6 +13,19 @@ public class Order {
     private Double itemPrice;
     private Double shippingPrice;
     private Double totalPrice;
+    Address shipTo;
+
+
+    public Address getShipTo() {
+        return shipTo;
+    }
+
+    public void setShipTo(Address shipTo) {
+        this.shipTo = shipTo;
+    }
+
+
+
 
     public Integer getOrederID() {
         return orederID;
